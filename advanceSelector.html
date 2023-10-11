@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #legend {
+        color: blueviolet;
+        font-family: "Pixelify Sans", cursive;
+        font-family: "Roboto", sans-serif;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h2>Student Registration From</h2>
+    <fieldset>
+      <legend id="legend">Student Registration From</legend>
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="text">First Name :</label></td>
+            <td>
+              <input
+                type="text"
+                required
+                autofocus
+                maxlength="12"
+                placeholder="first name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="text">Last Name:</label></td>
+            <td><input type="text" placeholder="last name" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">mobile number:</label></td>
+            <td>
+              <input type="number" required placeholder="contact number" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td><input type="email" placeholder="Email@gmail.com" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">Password:</label></td>
+            <td><input type="password" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="text">Country</label></td>
+            <td><input type="text" placeholder="Indian" disabled /></td>
+          </tr>
+
+          <tr>
+            <td><label for="text">Do You Have bank account</label></td>
+            <td>
+              <input type="radio" name="Do You Have bank account" />Yes
+              <input type="radio" name="Do You Have bank account" />No
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="text">Date Of Birth</label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">Available in Week</label></td>
+            <td><input type="week" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">preferred time</label></td>
+            <td><input type="time" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">Select Profile Photo</label></td>
+            <td><input type="file" required /></td>
+          </tr>
+          <tr>
+            <td><label for="text">Select Certificate</label></td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><label for="text">Select Graduation</label></td>
+            <td>
+              <select>
+                <option value="b.tech">food technology</option>
+                <option value="engineering">b.tech</option>
+                <option value="mba">MBA</option>
+                <option value="agriculture">BSC agriculture</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="text"> Select Gender</label></td>
+            <td>
+              <input type="radio" name="Gender" /><label for="">male</label>
+              <input type="radio" name="Gender" /><label for=""> female </label>
+              <input type="radio" name="Gender" /><label for="">
+                transgenders</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Please Select Training</label></td>
+            <td>
+              <input type="checkbox" /> <label for="">angular</label>
+              <input type="checkbox" /> <label for="">java</label>
+              <input type="checkbox" /> <label for="">.Net</label>
+              <input type="checkbox" /> <label for="">angular</label>
+              <input type="checkbox" /> <label for="">html</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="text">Address:</label></td>
+            <td>
+              <textarea
+                name="Address"
+                id="Address"
+                cols="7"
+                rows="7"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              &nbsp;&nbsp;&nbsp;<label>
+                <button type="reset">Reset</button></label
+              >
+            </td>
+
+            <td>
+              <label><button type="submit">submit</button> </label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <strong>Social Media Icons</strong> &nbsp; &nbsp;
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <a href="rohan.jpg" target="_blank" width="200" hight="200"> ROHAN</a>
+    </fieldset>
+
+    <span id="tp">THIS SIDE ROHAN</span>
+
+    My self rohan
+  </body>
+</html>
